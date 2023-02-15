@@ -283,8 +283,8 @@ body {
    
 }
 .inner-box,.outer-box{
-    width: 6rem;
-    height: 6rem;
+    min-width: 5rem;
+    min-height: 5rem;
     border-radius: 20px;
     cursor: pointer;
 
