@@ -282,6 +282,11 @@ body {
     background-color: #2df8c5;
    
 }
+.skill-list{
+    display:flex;
+    flex-direction: column;
+    
+}
 .inner-box,.outer-box{
     width: 5rem;
     height: 5rem;
@@ -300,16 +305,19 @@ body {
    background-color: #02bf91;
     transform: rotate(10deg);
     transition: box-shadow, transform 400ms;
+    animation-name: example;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:ease-in-out;
 }
-.skill-list{
-    display:flex;
-    flex-direction: column;
-    
+@keyframes example {
+    form{transform: rotate(10deg);}
+    to{ transform: rotate(0deg);}
 }
 
 .outer-box:hover {
     box-shadow: 5px 5px 5px black;
-    transform: rotate(0deg);
 
 }
 
