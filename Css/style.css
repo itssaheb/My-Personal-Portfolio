@@ -274,6 +274,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
 
 }
 .inner-box{
@@ -283,13 +284,14 @@ body {
 }
 .inner-box,.outer-box{
     width: 6rem;
-    height: 100px;
+    height: 6rem;
     border-radius: 20px;
     cursor: pointer;
 
 }
 .outer-box{
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -302,8 +304,6 @@ body {
 .skill-list{
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     
 }
 
