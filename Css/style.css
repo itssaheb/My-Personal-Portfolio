@@ -101,7 +101,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left:5vw;
+    margin-left: 5vw;
 }
 
 .link-box {
@@ -181,6 +181,7 @@ body {
     transform: rotate(0deg);
 
 }
+
 .home-data {
     margin: 25px;
 }
@@ -212,13 +213,16 @@ body {
     background-color: #2df8c5;
     text-decoration: none;
     font-size: 1.2rem;
-    color:#011913;
+    color: #011913;
 }
-.hire-text{
+
+.hire-text {
     margin-right: 10px;
 }
 
-.about-section,.Skills-section,.Qualification-section{
+.about-section,
+.Skills-section,
+.Qualification-section {
     width: 100vw;
     height: fit-content;
     margin: 12% 0px;
@@ -227,35 +231,45 @@ body {
     justify-content: center;
     align-items: center;
 }
-.about-title,.skills-title,.Qualification-title{
+
+.about-title,
+.skills-title,
+.Qualification-title {
     color: #2df8c5;
     margin: 10px;
 
 }
-.about-subtitle,.Skills-subtitle,.Qualification-subtitle{
+
+.about-subtitle,
+.Skills-subtitle,
+.Qualification-subtitle {
     font-size: 1.2rem;
     text-align: center;
     color: #011913;
     margin: 0px 20px;
 }
-.about-img{
+
+.about-img {
     width: 200px;
     border-radius: 50%;
     margin: 20px 0px 10px 0px;
 }
-.about-data{
+
+.about-data {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.about_description{
+
+.about_description {
     text-align: center;
     font-size: 1.2rem;
     color: #07dea8;
     margin: 0px 20px;
 }
-.about-buttons{
+
+.about-buttons {
     width: 150px;
     height: 60px;
     display: flex;
@@ -264,12 +278,13 @@ body {
     margin: 10px;
     border-radius: 10px;
     text-decoration: none;
-    color:#011913;
+    color: #011913;
     background-color: #2df8c5;
     font-size: 1.3rem;
-    
+
 }
-.skill-box{
+
+.skill-box {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -277,106 +292,123 @@ body {
     padding: 20px;
 
 }
-.inner-box{
+
+.inner-box {
     margin: 10px;
     background-color: #2df8c5;
-   
+
 }
-.skill-list{
-    display:flex;
+
+.skill-list {
+    display: flex;
     flex-direction: column;
-    
+
 }
-.inner-box,.outer-box{
+
+.inner-box,
+.outer-box {
     width: 5rem;
     height: 5rem;
     border-radius: 20px;
     cursor: pointer;
 
 }
-.outer-box{
+
+.outer-box {
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
     color: #084939;
-   border-radius: 20px;
-   background-color: #02bf91;
+    border-radius: 20px;
+    background-color: #02bf91;
     transform: rotate(10deg);
     transition: box-shadow, transform 400ms;
     animation-name: example;
     animation-duration: 500ms;
     animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
-    animation-timing-function:ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
 }
+
 @keyframes example {
-    form{transform: rotate(10deg);}
-    to{ transform: rotate(0deg);}
+    form {
+        transform: rotate(10deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
 }
 
 .outer-box:hover {
     box-shadow: 5px 5px 5px black;
 
 }
-.timeline{
+
+.timeline {
     position: relative;
-    max-width: 1200px;
-    margin: 30px auto;
 }
-.container{
-    margin: 10px 0px;
+
+.container {
     display: flex;
     justify-content: center;
-    padding: 10px 10px;
     position: relative;
     width: 50%;
     border-radius: 15px;
 }
 
-.text-box{
-    padding: 20px 30px;
+.text-box {
+    padding: 10px 30px;
     position: relative;
 }
-.E-title{
+
+.E-title {
+    font-size:1.3rem;
     margin: 5px 0;
-    color:#07dea8;
+    color: #07dea8;
 }
-.E-discription{
+
+.E-discription {
     margin: 0 0 10px 0;
-    font-size: large;
-    color:#011913;
-}
-.E-time{
-    font-size:larger;
-    color:#000000;
+    font-size:1rem;
+    color: #011913;
 }
 
-.left-container{
-    left:0;
+.E-time {
+    font-size:1rem;
+    color: #000000;
 }
-.right-container{
-    left:50%;
+
+.left-container {
+    left: 0;
 }
-.container i{
-     position: absolute;
-     width: 40px;
-     border-radius: 50%;
-     right: -33.5px;
-     top: 35px;
-     z-index: 10;
-     color: #2df8c5;
+
+.right-container {
+    left: 50%;
+}
+
+.container i {
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -33px;
+    top: 35px;
+    z-index: 10;
+    color: #2df8c5;
 
 }
+
 .right-container i {
     display: flex;
     left: -7px;
 }
-.timeline::after{
-    content:'';
+
+.timeline::after {
+    content: '';
     position: absolute;
-    width: 3px;
+    width: 2px;
     height: 76%;
     background: #2df8c5;
     top: 50px;
