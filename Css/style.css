@@ -222,7 +222,8 @@ body {
 
 .about-section,
 .Skills-section,
-.Qualification-section {
+.Qualification-section,
+.Project-section {
     width: 100vw;
     height: fit-content;
     margin: 12% 0px;
@@ -234,7 +235,7 @@ body {
 
 .about-title,
 .skills-title,
-.Qualification-title {
+.Qualification-title,.Project-title {
     color: #2df8c5;
     margin: 10px;
 
@@ -242,7 +243,8 @@ body {
 
 .about-subtitle,
 .Skills-subtitle,
-.Qualification-subtitle {
+.Qualification-subtitle,
+.Project-subtitle {
     font-size: 1.2rem;
     text-align: center;
     color: #011913;
