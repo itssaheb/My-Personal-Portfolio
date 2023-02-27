@@ -18,6 +18,10 @@ light.addEventListener('click',()=>{
 var slide = document.getElementById("slider");
 var btn1 = document.getElementById("btn-1");
 var btn2 = document.getElementById("btn-2");
+
+var left = document.getElementById("left");
+var right = document.getElementById("right");
+
 btn1.onclick = function(){
     slide.style.transform = "translateX(0px)";
     btn1.classList.add("active");
@@ -28,5 +32,17 @@ btn2.onclick = function(){
     btn2.classList.add("active");
     btn1.classList.remove("active");
 }
+
+left.onclick = function(){
+    slide.style.transform = "translateX(0px)";
+    btn1.classList.add("active");
+    btn2.classList.remove("active");
+}
+right.onclick = function(){
+    slide.style.transform = "translateX(-100%)";
+    btn2.classList.add("active");
+    btn1.classList.remove("active");
+}
+
 
 

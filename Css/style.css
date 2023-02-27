@@ -235,7 +235,8 @@ body {
 
 .about-title,
 .skills-title,
-.Qualification-title,.Project-title {
+.Qualification-title,
+.Project-title {
     color: #2df8c5;
     margin: 60px 10px 10px 10px;
 
@@ -348,10 +349,12 @@ body {
     box-shadow: 5px 5px 5px black;
 
 }
+
 .education {
     color: #2df8c5;
     margin: 10px 0px 10px 0px;
 }
+
 .timeline {
     position: relative;
 }
@@ -371,18 +374,18 @@ body {
 }
 
 .E-title {
-    font-size:1.2rem;
+    font-size: 1.2rem;
     color: #07dea8;
 }
 
 .E-discription {
     margin: 0 0 10px 0;
-    font-size:1rem;
+    font-size: 1rem;
     color: #011913;
 }
 
 .E-time {
-    font-size:1rem;
+    font-size: 1rem;
     color: #000000;
 }
 
@@ -420,64 +423,96 @@ body {
     left: 50%;
     margin-left: 0px;
 }
-.slider-box{
+
+.slider-box {
     width: 100vw;
     height: 80vh;
     margin: 10px auto;
-    position:relative;
+    position: relative;
     overflow: hidden;
 }
-#slider{
-    width:100vw;
+
+.arrowtag{
+    cursor: pointer;
+    position: absolute;
+    top: 25vw;
+    font-size: 1.5rem;
+    z-index: 9999999;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5)
+}
+.arrowtag:hover {
+    color: #2df8c5;
+}
+
+.left {
+    left: 3px;
+}
+
+.right {
+    right: 3px;
+}
+
+
+#slider {
+    width: 100vw;
     display: inline-flex;
     transition: 0.5s;
 }
-#slider img{
+
+#slider img {
     border-radius: 15%;
     width: 100vw;
-    padding:10px 30px;
-   
+    padding: 10px 30px;
+
 }
-#slider h2{
-    padding:5px 30px;
+
+#slider h2 {
+    padding: 5px 30px;
     color: #2df8c5;
-   
+
 }
-#slider p{
+
+#slider p {
     font-size: 1.1rem;
-    padding:5px 30px;
-    color: #011913;;
+    padding: 5px 30px;
+    color: #011913;
+    ;
 }
-#slider .demo{
+
+#slider .demo {
     width: 100px;
     height: 50px;
     background: #2df8c5;
     font-size: 1.2rem;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     border-radius: 10px;
     margin: 10px 30px;
     cursor: pointer;
 }
-.indicators{
+
+.indicators {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
-.indicators span{
+
+.indicators span {
     display: inline-block;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     cursor: pointer;
     margin: 20px 0 0 0;
 }
-.indicators .active{
+
+.indicators .active {
     background: #2df8c5;
 }
-span:hover{
+
+span:hover {
     background: #02bf91;
 }
-
