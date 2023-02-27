@@ -237,7 +237,7 @@ body {
 .skills-title,
 .Qualification-title,.Project-title {
     color: #2df8c5;
-    margin: 10px;
+    margin: 60px 10px 10px 10px;
 
 }
 
@@ -348,7 +348,10 @@ body {
     box-shadow: 5px 5px 5px black;
 
 }
-
+.education {
+    color: #2df8c5;
+    margin: 10px 0px 10px 0px;
+}
 .timeline {
     position: relative;
 }
@@ -359,16 +362,16 @@ body {
     position: relative;
     width: 50%;
     border-radius: 15px;
+    margin: 0px 0;
 }
 
 .text-box {
-    padding: 10px 30px;
+    padding: 0px 30px;
     position: relative;
 }
 
 .E-title {
     font-size:1.2rem;
-    margin: 5px 0;
     color: #07dea8;
 }
 
@@ -428,7 +431,6 @@ body {
     width:100vw;
     display: inline-flex;
     transition: 0.5s;
-    position: relative;
 }
 #slider img{
     border-radius: 15%;
@@ -456,11 +458,11 @@ body {
     align-items: center;
     border-radius: 10px;
     margin: 10px 30px;
+    cursor: pointer;
 }
 .indicators{
     position: absolute;
     left: 50%;
-    bottom: 120px;
     transform: translateX(-50%);
 }
 .indicators span{
