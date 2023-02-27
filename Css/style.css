@@ -223,10 +223,11 @@ body {
 .about-section,
 .Skills-section,
 .Qualification-section,
-.Project-section {
+.Project-section,
+.contact-section {
     width: 100vw;
     height: fit-content;
-    margin: 12% 0px;
+    margin-top: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -236,17 +237,20 @@ body {
 .about-title,
 .skills-title,
 .Qualification-title,
-.Project-title {
+.Project-title,
+.contact-title {
     color: #2df8c5;
     margin: 60px 10px 10px 10px;
+    font-size: 2rem;
 
 }
 
 .about-subtitle,
 .Skills-subtitle,
 .Qualification-subtitle,
-.Project-subtitle {
-    font-size: 1.2rem;
+.Project-subtitle,
+.contact-subtitle {
+    font-size: 1.5rem;
     text-align: center;
     color: #011913;
     margin: 0px 20px;
@@ -432,7 +436,7 @@ body {
     overflow: hidden;
 }
 
-.arrowtag{
+.arrowtag {
     cursor: pointer;
     position: absolute;
     top: 25vw;
@@ -441,6 +445,7 @@ body {
     cursor: pointer;
     color: rgba(255, 255, 255, 0.5)
 }
+
 .arrowtag:hover {
     color: #2df8c5;
 }
@@ -477,7 +482,7 @@ body {
     font-size: 1.1rem;
     padding: 5px 30px;
     color: #011913;
-    ;
+
 }
 
 #slider .demo {
@@ -515,4 +520,97 @@ body {
 
 span:hover {
     background: #02bf91;
+}
+
+.contacts {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    margin: 30px 0 0 0;
+}
+
+.contact-icon {
+    color: #02bf91;
+    font-size: 1.5rem;
+    margin: 0 20px;
+}
+
+.contact-info {
+    color: #2df8c5;
+    font-size: 1.4rem;
+}
+
+.contact-no a {
+    color: #011913;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-form {
+    margin: 0 20px;
+}
+
+.form-info {
+    color: #2df8c5;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.contact-content {
+    width: 80vw;
+    height: fit-content;
+    display: grid;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2df8c5;
+    padding: 5px 0 20px 0;
+    background: #084939;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+textarea,
+input {
+    background: #084939;
+    border: 0px solid;
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 10px;
+}
+
+.contact-label {
+    margin: 10px;
+}
+
+.button-message {
+    padding: 15px 15px;
+    border: 0px solid;
+    background-color: #2df8c5;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.footer-section{
+    width: 100vw;
+    height:100%;
+    border-radius: 15px;
+    background: #084939;
+    color:#2df8c5
+}
+.footer-data{
+    font-size: 1.2rem;
+    margin: 50px 20px;
+}
+.footer-subtitle{
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer-end{
+    text-align: center;
+    margin-bottom: 130px;
 }

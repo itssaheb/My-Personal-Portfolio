@@ -16,6 +16,7 @@ light.addEventListener('click',()=>{
 });
 
 var slide = document.getElementById("slider");
+
 var btn1 = document.getElementById("btn-1");
 var btn2 = document.getElementById("btn-2");
 
