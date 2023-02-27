@@ -367,7 +367,7 @@ body {
 }
 
 .E-title {
-    font-size:1.3rem;
+    font-size:1.2rem;
     margin: 5px 0;
     color: #07dea8;
 }
@@ -417,3 +417,65 @@ body {
     left: 50%;
     margin-left: 0px;
 }
+.slider-box{
+    width: 100vw;
+    height: 80vh;
+    margin: 10px auto;
+    position:relative;
+    overflow: hidden;
+}
+#slider{
+    width:100vw;
+    display: inline-flex;
+    transition: 0.5s;
+    position: relative;
+}
+#slider img{
+    border-radius: 15%;
+    width: 100vw;
+    padding:10px 30px;
+   
+}
+#slider h2{
+    padding:5px 30px;
+    color: #2df8c5;
+   
+}
+#slider p{
+    font-size: 1.1rem;
+    padding:5px 30px;
+    color: #011913;;
+}
+#slider .demo{
+    width: 100px;
+    height: 50px;
+    background: #2df8c5;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px 30px;
+}
+.indicators{
+    position: absolute;
+    left: 50%;
+    bottom: 120px;
+    transform: translateX(-50%);
+}
+.indicators span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+    margin: 20px 0 0 0;
+}
+.indicators .active{
+    background: #2df8c5;
+}
+span:hover{
+    background: #02bf91;
+}
+
