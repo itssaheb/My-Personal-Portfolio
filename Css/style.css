@@ -11,7 +11,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .iam {
@@ -19,23 +18,25 @@ body {
     padding: 15px;
     font-size: 2rem;
     font-weight: bold;
-    margin:0 0 0 -14px;
+    margin-left:15px;
     padding-bottom: 5px;
 
   
 }
 .text-animation{
     width: 100vw;
-    height: 110px;
-    margin-left:27px;
-
+    height: 100px;
 }
 .text {
     display: inline-flex;
     color: #52f9cf;
     border-right: 2px solid #52f9cf;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-left:27px;
+}
+.typed-cursor{
+    display: none;
 }
 
 .heading {
