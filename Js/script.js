@@ -46,4 +46,9 @@ right.onclick = function(){
 }
 
 
-
+var typing = new Typed(".text", {
+    strings: ["SAHEB", "a Web Developer", "a Coder","a Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 40,
+    loop: true,
+  });
